@@ -1,0 +1,4 @@
+Q.How can we choose a good value of K in KMeans?
+
+Ans: 
+We can say that data is clustered well if distinct clusters are at reasonable distances from each other (not close to overlapping and the clusters themselves are reasonably dense. For each k, we can calculate the distances between all clusters and also calculate the mean of the distances of points from their centroids. We can choose the k which either maximises the intercluster distances or minimizes the distances of points from their centroids.
